@@ -1,0 +1,416 @@
+locales:
+  /:
+    lang: en
+    langName: EN
+    title: Chen Lu | Portfolio
+    description: The personal portfolio of Chen Lu, a high school physics teacher and Ph.D. candidate in condensed matter physics.
+
+    hero:
+      name: Chen Lu
+      welcome: 👋 Hi there, I am
+      titles:
+        - High School Physics Teacher
+        - Condensed Matter Physics Ph.D. Candidate
+        - Six-Year Student Leader
+      avatar: /avatar.avif
+      bgImage: /bg.avif
+      medias:
+        - icon: envelope
+          name: Email
+          link: mailto:chenl987@nenu.edu.cn
+
+        - icon: fa7-brands:orcid
+          name: ORCID
+          link: https://orcid.org/0009-0006-5397-4679
+
+        - icon: address-card
+          name: Resume
+          link: https://chenlu-resume.innenu.com
+
+    navbar:
+      links:
+        - label: Profile
+          anchor: "#profile"
+        - label: Experience
+          anchor: "#experience"
+        - label: Publications
+          anchor: "#publications"
+        - label: Awards
+          anchor: "#awards"
+        - label: Student Work
+          anchor: "#student-work"
+        - label: Evaluation
+          anchor: "#evaluation"
+
+    sections:
+      - type: profile
+        id: profile
+        title: Profile
+        icon: user-tie
+        data:
+          fields:
+            - title: Name
+              icon: user
+              value: Chen Lu
+
+            - title: Political Status
+              icon: flag
+              value: Member of the Communist Party of China
+
+            - title: Certificates
+              icon: certificate
+              value:
+                - Senior High School Physics Teaching Certificate
+                - Mandarin Proficiency Level 2A
+                - College English Test Band 6 (CET-6)
+
+          contacts:
+            - label: Email
+              value: chenl987@nenu.edu.cn
+              icon: envelope
+
+            - label: WeChat
+              value: Mistress-Hope
+              icon: fa7-brands:weixin
+
+          slogan: Serving the nation through education — dedicated to high school physics teaching.
+
+      - type: banner
+        id: aspiration
+        title: Career Aspiration
+        icon: bullhorn
+        data:
+          header: |-
+            Committed to High School Physics Teaching
+          tags: Open to Opportunities
+          content: |-
+            Solid research training in condensed matter physics and four years of high school physics teaching practice enable me to inspire students with rigorous scientific thinking and lively physics classes.
+          footer: |-
+            Feel free to reach out: [chenl987@nenu.edu.cn](mailto:chenl987@nenu.edu.cn)
+          actions:
+            - label: Contact Me
+              link: mailto:chenl987@nenu.edu.cn
+              primary: true
+
+      - type: experience
+        id: experience
+        title: Education & Experience
+        icon: graduation-cap
+        data:
+          - type: study
+            place: Northeast Normal University, School of Physics
+            time: Sep. 2021 - Jun. 2027 (Expected)
+            title: Successive Master–Doctoral Program · Condensed Matter Physics
+            content: Admitted through the recommendation-without-examination track.
+
+          - type: study
+            place: Northeast Normal University, School of Physics
+            time: Sep. 2017 - Jun. 2021
+            title: Bachelor of Science in Physics (Teacher Education)
+
+          - type: work
+            place: New Kaixuan Education School
+            time: May 2020 - Aug. 2024
+            title: Part-time High School Physics Teacher
+            content: Delivered part-time high school physics lessons and one-on-one tutoring, emphasizing physical models and problem-solving methods; students' physics performance improved considerably.
+
+          - type: work
+            place: Beijing Xueersi Online School (TAL Education Group)
+            time: Nov. 2018 - Jun. 2019
+            title: High School Physics Teaching Intern
+            content: Participated in teaching research, lecture-note editing and interactive classroom design, and systematically organized high-frequency exam points and common mistakes.
+
+          - type: volunteer
+            place: Lankao County, Kaifeng, Henan (Beijing Yiyi Youth Public Welfare Center)
+            time: Summer 2019
+            title: Rural Education Volunteer
+            content: Taught a "Fun Physics & Hands-on Experiments" course series at a rural school, living out the aspiration of a teacher-education student.
+
+          - type: project
+            place: Fundamental Research Funds for the Central Universities
+            time: "2021"
+            title: Principal Investigator, Key Cultivation Project
+            content: Led the project "Spectroscopic Study and Applications of UV-B Persistent Luminescence", coordinating the research design and division of work and passing the final review.
+
+      - type: cards
+        id: publications
+        title: Selected Publications
+        icon: book
+        data:
+          - title: "Light: Science & Applications"
+            category: CAS Tier 1 TOP
+            description: |-
+              **First Author** · A top international journal in optics, selected as a "Leading Journal" of the Chinese STM Journals Excellence Action Plan.
+
+          - title: Physical Review Research
+            category: CAS Tier 2
+            description: |-
+              **First Author** · An authoritative physics journal of the American Physical Society (APS).
+
+          - title: J. Mater. Chem. C
+            category: CAS Tier 3
+            description: |-
+              **First Author** · A classic journal on optical functional materials published by the Royal Society of Chemistry (RSC).
+
+          - title: APC International Photonics Conference
+            category: International Conference
+            description: |-
+              **First Author** · Presented the research and published in a high-level international conference.
+
+          - title: National Materials
+            category: Excellence Journal
+            description: |-
+              **Co-First Author** · Selected for the Excellence Action Plan for High-Level Key Journals.
+
+      - type: markdown
+        id: collaboration
+        title: Academic Collaboration
+        icon: users
+        data:
+          content: In addition, I have co-authored **5 papers** in well-known international SCI journals as a major collaborator.
+
+      - type: list
+        id: awards
+        title: Honors & Awards
+        icon: trophy
+        dot: check
+        data:
+          - "**Scholarships**: National Scholarship, Second-Class Scholarship, Third-Class Scholarship, Outstanding Student Leader Scholarship ×2, Innovation & Entrepreneurship Scholarship ×2."
+          - "**Honors**: University Outstanding Student Leader, University May Fourth Outstanding League Member, University May Fourth Red Flag League Cadre."
+          - '**Competitions & Academics**: "Internet+" Provincial Bronze Award, "Challenge Cup" Jilin Provincial Third Prize, "Light · Future" Academic Forum Outstanding Presentation Award.'
+
+      - type: list
+        id: student-work
+        title: Student Work
+        icon: users
+        dot: diamond
+        data:
+          - "**2021 — 2023** School of Physics, NENU · Graduate Grade Coordinator: coordinated academic atmosphere building, ideological education and student management, with outstanding class organization skills."
+          - "**2019 — 2020** Student Union, School of Physics, NENU · Secretary-General: planned large academic and cultural festivals, science lectures and league evaluation work; named a university-level outstanding cadre."
+          - "**2017 — 2021** School of Physics, NENU · Undergraduate Grade Leader: served four consecutive years, with solid experience in student work and youth moral education communication."
+
+      - type: markdown
+        id: evaluation
+        title: Self-Evaluation
+        icon: star
+        data:
+          content: |-
+            - Integrated bachelor–master–doctoral training in physics at Northeast Normal University; a CPC member who loves basic education, with solid physics knowledge and rigorous scientific thinking.
+            - Four years of high school physics teaching and teaching-research experience; familiar with the high school physics system and key exam points; skilled at heuristic and model-based teaching.
+            - Six consecutive years as undergraduate grade leader, graduate grade coordinator and student union secretary-general; strong organizational, coordination and communication skills, responsible and approachable.
+            - Practical and modest, dedicated and accountable, ready to devote myself to high school physics teaching.
+          card: true
+
+    footer:
+      copyright: © 2026 Chen Lu. All rights reserved.
+      description: Exploring the laws of nature, inspiring young minds.
+
+  /zh/:
+    lang: zh-CN
+    langName: 中文
+    title: 陈璐 | 个人简历
+    description: 高中物理教师陈璐的个人简历与作品集。
+    ui:
+      themeToggle: 切换主题
+      contacts: 联系方式
+      details: 详情
+
+    hero:
+      name: 陈璐
+      welcome: 👋 你好，我是
+      titles:
+        - 高中物理教师
+        - 凝聚态物理博士研究生
+        - 六年学生工作经历
+      avatar: /avatar.avif
+      bgImage: /bg.avif
+      medias:
+        - icon: envelope
+          name: 邮箱
+          link: mailto:chenl987@nenu.edu.cn
+
+        - icon: fa7-brands:orcid
+          name: ORCID
+          link: https://orcid.org/0009-0006-5397-4679
+
+        - icon: address-card
+          name: 简历
+          link: https://chenlu-resume.innenu.com
+
+    navbar:
+      links:
+        - label: 个人资料
+          anchor: "#profile"
+        - label: 教育经历
+          anchor: "#experience"
+        - label: 科研成果
+          anchor: "#publications"
+        - label: 荣誉奖项
+          anchor: "#awards"
+        - label: 学生工作
+          anchor: "#student-work"
+        - label: 自我评价
+          anchor: "#evaluation"
+
+    sections:
+      - type: profile
+        id: profile
+        title: 个人资料
+        icon: user-tie
+        data:
+          fields:
+            - title: 姓名
+              icon: user
+              value: 陈璐
+
+            - title: 政治面貌
+              icon: flag
+              value: 中共党员
+
+            - title: 证书
+              icon: certificate
+              value:
+                - 高中物理教师资格证
+                - 普通话等级二级甲等
+                - 大学英语六级（CET-6）
+
+          contacts:
+            - label: 邮箱
+              value: chenl987@nenu.edu.cn
+              icon: envelope
+
+            - label: 微信
+              value: Mistress-Hope
+              icon: fa7-brands:weixin
+
+          slogan: 以从教报国之初心，全力投入高中物理教学工作。
+
+      - type: banner
+        id: aspiration
+        title: 求职意向
+        icon: bullhorn
+        data:
+          header: |-
+            立志投身高中物理教学工作
+          tags: 求职中
+          content: |-
+            扎实的凝聚态物理科研训练与四年高中物理教学实践，让我能够以严谨的科学思维与生动的物理课堂感染学生。
+          footer: |-
+            欢迎联系：[chenl987@nenu.edu.cn](mailto:chenl987@nenu.edu.cn)
+          actions:
+            - label: 联系我
+              link: mailto:chenl987@nenu.edu.cn
+              primary: true
+
+      - type: experience
+        id: experience
+        title: 教育背景与经历
+        icon: graduation-cap
+        data:
+          - type: study
+            place: 东北师范大学 物理学院
+            time: 2021.09 - 2027.06（预计）
+            title: 硕博连读 · 凝聚态物理
+            content: 推免保送。
+
+          - type: study
+            place: 东北师范大学 物理学院
+            time: 2017.09 - 2021.06
+            title: 物理学（师范/理学）· 理学学士
+
+          - type: work
+            place: 新凯旋教育学校
+            time: 2020.05 - 2024.08
+            title: 高中物理兼职教师
+            content: 承担高中物理兼职授课与个性化辅导，注重物理模型与解题方法引导，所带学生物理成绩有很大提高。
+
+          - type: work
+            place: 北京学而思网络科技有限公司
+            time: 2018.11 - 2019.06
+            title: 高中物理实习教师
+            content: 参与高中物理教研、讲义编撰与课堂互动教学设计，系统梳理高考高频考点与学生易错题型。
+
+          - type: volunteer
+            place: 河南省开封市兰考县（北京益微青年公益发展中心）
+            time: 2019 暑期
+            title: 基层支教志愿者
+            content: 深入基层乡村学校开展暑期支教，主讲“趣味物理科普与动手小实验”系列课程，践行师范生从教初心。
+
+          - type: project
+            place: 中央高校基本科研业务专项资金
+            time: 2021
+            title: 重点培育项目负责人
+            content: 主持重点课题《紫外 B 波段余辉发光的谱学及应用研究》，全面统筹方案设计、课题分工并圆满通过结项验收。
+
+      - type: cards
+        id: publications
+        title: 代表性科研成果
+        icon: book
+        data:
+          - title: "Light: Science & Applications"
+            category: 中科院一区 TOP
+            description: |-
+              **第一作者** · 光学领域国际顶刊，入选中国科技期刊卓越行动计划「领军期刊」。
+
+          - title: Physical Review Research
+            category: 中科院二区
+            description: |-
+              **第一作者** · 美国物理学会 (APS) 旗下物理权威刊物。
+
+          - title: J. Mater. Chem. C
+            category: 中科院三区
+            description: |-
+              **第一作者** · 英国皇家化学会 (RSC) 光功能材料经典期刊。
+
+          - title: APC 国际光子学学术会议
+            category: 国际重要学术会议
+            description: |-
+              **第一作者** · 作学术汇报交流并收录高水平学术会议成果。
+
+          - title: National Materials
+            category: 卓越期刊
+            description: |-
+              **共同一作** · 入选中国科技期刊卓越行动计划高水平重点期刊。
+
+      - type: markdown
+        id: collaboration
+        title: 学术合作
+        icon: users
+        data:
+          content: 另以主要合作者身份在知名国际 SCI 刊物署名发表学术论文 **5 篇**。
+
+      - type: list
+        id: awards
+        title: 荣誉与奖项
+        icon: trophy
+        dot: check
+        data:
+          - "**奖学金**：国家奖学金、二等奖学金、三等奖学金、优秀学生干部奖学金 ×2、创新创业专项奖学金 ×2。"
+          - "**荣誉称号**：校级优秀学生干部、校五四优秀团员、校五四红旗团干部。"
+          - "**竞赛与学术**：「互联网+」省级铜奖、「挑战杯」吉林省三等奖、「光·未来」学术论坛优秀报告奖。"
+
+      - type: list
+        id: student-work
+        title: 学生工作
+        icon: users
+        dot: diamond
+        data:
+          - "**2021 — 2023** 东北师范大学物理学院 · 研究生年级负责人：统筹年级日常学风建设、思政教育与学生管理事务，具备突出的班级组织协调能力。"
+          - "**2019 — 2020** 东北师范大学物理学院学生会 · 学生会秘书长：负责学院大型学术文化节、科技讲座策划统筹及团学评优工作，获评校级优秀干部。"
+          - "**2017 — 2021** 东北师范大学物理学院 · 本科年级长：连续 4 年担任本科年级长，具备深厚扎实的学生工作与青年德育沟通经验。"
+
+      - type: markdown
+        id: evaluation
+        title: 自我评价
+        icon: star
+        data:
+          content: |-
+            - 东北师范大学物理学本硕博贯通培养，中共党员，热爱基础教育事业，具有扎实的物理学科功底与严谨的科学思维；
+            - 具备四年高中物理教学实践与教研备课经验，熟悉高中物理知识体系与高考考查重点，善于启发式与模型化教学；
+            - 连续六年担任本科年级长、研究生年级负责人及学生会秘书长，组织协调与沟通表达能力强，富有责任心与亲和力；
+            - 作风踏实谦逊，工作敬业负责，愿以从教报国之初心，全力投入高中物理教学工作。
+          card: true
+
+    footer:
+      copyright: © 2026 陈璐。保留所有权利。
+      description: 格物致知，以教为乐。

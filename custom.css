@@ -1,0 +1,11 @@
+/* custom.css — placed in the project root, auto-injected at build time. */
+
+/*
+ * Avatar framing: the source portrait (avatar.avif, 2218×3361) is very tall,
+ * so a plain `object-position: center` crops the face off-center.
+ * Nudge the visible window upward so the face sits near the circle center.
+ * Tune the vertical percentage (e.g. 20%–40%) if the framing needs adjustment.
+ */
+.hero-avatar-img {
+  object-position: center 30%;
+}
