@@ -3,13 +3,14 @@ locales:
     lang: en
     langName: EN
     title: Chen Lu | Portfolio
-    description: The personal portfolio of Chen Lu, a high school physics teacher and Ph.D. candidate in condensed matter physics.
+    description: The personal portfolio of Chen Lu, a Ph.D. candidate in condensed matter physics seeking a high school physics teaching position.
 
     hero:
       name: Chen Lu
       welcome: 👋 Hi there, I am
       titles:
-        - High School Physics Teacher
+        # - High School Physics Teacher
+        - High School Physics Teacher Candidate
         - Condensed Matter Physics Ph.D. Candidate
         - Six-Year Student Leader
       avatar: /avatar.avif
@@ -209,7 +210,7 @@ locales:
     lang: zh-CN
     langName: 中文
     title: 陈璐 | 个人简历
-    description: 高中物理教师陈璐的个人简历与作品集。
+    description: 求职高中物理教师岗位的陈璐的个人简历与作品集。
     ui:
       themeToggle: 切换主题
       contacts: 联系方式
@@ -219,7 +220,8 @@ locales:
       name: 陈璐
       welcome: 👋 你好，我是
       titles:
-        - 高中物理教师
+        # - 高中物理教师
+        - 高中物理教师求职者
         - 凝聚态物理博士研究生
         - 六年学生工作经历
       avatar: /avatar.avif
@@ -338,7 +340,7 @@ locales:
 
           - type: project
             place: 中央高校基本科研业务专项资金
-            time: 2021
+            time: "2021"
             title: 重点培育项目负责人
             content: 主持重点课题《紫外 B 波段余辉发光的谱学及应用研究》，全面统筹方案设计、课题分工并圆满通过结项验收。
 
