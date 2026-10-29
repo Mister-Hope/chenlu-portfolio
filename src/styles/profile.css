@@ -1,0 +1,69 @@
+@layer components {
+  .profile-container {
+    @apply grid grid-cols-1 gap-8 p-6 md:grid-cols-2 md:p-8;
+  }
+
+  .profile-fields-col {
+    @apply space-y-6;
+  }
+
+  .profile-label {
+    @apply mb-2 flex w-fit items-center gap-2 rounded-lg bg-primary-50 px-3 py-1.5 dark:bg-primary-900/30;
+  }
+
+  .profile-tags-wrapper {
+    @apply flex flex-wrap gap-3;
+  }
+
+  .profile-tag {
+    @apply cursor-default rounded-2xl border border-slate-100 bg-white px-5 py-2.5 text-sm font-black text-slate-700 shadow-sm transition-all hover:border-primary-300 hover:bg-primary-50/50 dark:border-white/5 dark:bg-slate-800 dark:text-slate-300 dark:hover:border-primary-700 dark:hover:bg-primary-900/20;
+  }
+
+  .profile-text-value {
+    @apply text-title leading-tight font-black text-slate-800 dark:text-slate-100;
+  }
+
+  .profile-contact-col {
+    @apply space-y-8;
+  }
+
+  .profile-contact-header {
+    @apply mb-4 flex w-fit items-center gap-2 rounded-lg bg-primary-50 px-3 py-1.5 dark:bg-primary-900/30;
+  }
+
+  .profile-contact-list {
+    @apply grid grid-cols-1 gap-5;
+  }
+
+  .profile-contact-item {
+    @apply flex items-center gap-4;
+  }
+
+  .profile-icon-box {
+    @apply flex h-12 w-12 items-center justify-center rounded-2xl border border-slate-100 bg-white text-slate-400 shadow-sm transition-all duration-500 dark:border-white/5 dark:bg-slate-800 dark:text-slate-500;
+  }
+
+  .profile-contact-info {
+    @apply flex flex-col;
+  }
+
+  .profile-contact-label {
+    @apply mb-0.5 text-sub font-black tracking-widest text-slate-400 uppercase dark:text-slate-500;
+  }
+
+  .profile-contact-link {
+    @apply w-fit border-b border-transparent text-lg font-bold text-slate-800 transition-colors hover:border-primary-100 hover:text-primary-600 dark:text-slate-200 dark:hover:border-primary-900 dark:hover:text-primary-400;
+  }
+
+  .profile-slogan-box {
+    @apply relative overflow-hidden rounded-4xl border border-primary-100/50 bg-gradient-to-br from-primary-100/50 to-secondary-100/50 p-7 dark:border-primary-400/10 dark:from-primary-900/40 dark:to-secondary-900/40;
+  }
+
+  .profile-quote-icon {
+    @apply absolute -top-1 -left-1 text-5xl text-primary-500/30 select-none dark:text-primary-300/30;
+  }
+
+  .profile-slogan-text {
+    @apply relative z-10 text-base leading-relaxed font-black text-primary-800 italic dark:text-primary-300;
+  }
+}

@@ -1,0 +1,5 @@
+@layer components {
+  .icon-img {
+    @apply inline-block h-[1em] w-[1em] object-contain align-middle;
+  }
+}

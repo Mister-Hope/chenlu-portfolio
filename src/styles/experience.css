@@ -1,0 +1,41 @@
+@layer components {
+  .experience-list {
+    @apply space-y-8 ps-0 md:ps-4;
+  }
+
+  .experience-item {
+    @apply relative ps-10 md:ps-12;
+  }
+
+  .experience-line {
+    @apply absolute top-5 bottom-[-2.5rem] left-[7.5px] z-0 w-px bg-slate-200 md:left-[9.5px] dark:bg-slate-800;
+  }
+
+  .experience-node {
+    @apply absolute top-1 left-0 z-10 flex h-4 w-4 items-center justify-center rounded-full border-2 border-white shadow-sm transition-all duration-300 md:top-1.5 md:h-5 md:w-5 dark:border-slate-950;
+  }
+
+  .experience-meta {
+    @apply flex flex-wrap items-center justify-between gap-2 px-1;
+  }
+
+  .experience-location {
+    @apply inline-flex max-w-full min-w-0 items-center gap-1.5 rounded-lg border border-slate-100 bg-white px-2.5 py-1 text-sub font-bold text-slate-400 shadow-sm transition-all md:max-w-2xl md:px-3 md:py-1.5 dark:border-white/5 dark:bg-slate-900 dark:text-slate-500;
+  }
+
+  .experience-card {
+    @apply p-4 md:p-6;
+  }
+
+  .experience-icon-box {
+    @apply flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-xl shadow-inner md:h-14 md:w-14 md:rounded-2xl;
+  }
+
+  .experience-title {
+    @apply text-subtitle leading-tight font-black break-words text-slate-900 transition-colors dark:text-slate-100;
+  }
+
+  .experience-description {
+    @apply pt-1 text-main leading-relaxed font-medium text-slate-400 italic md:pt-2 dark:text-slate-500;
+  }
+}

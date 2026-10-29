@@ -1,0 +1,33 @@
+@layer components {
+  .section-container {
+    @apply scroll-mt-24 border-t border-slate-100 py-8 first:border-t-0 first:pt-8 md:scroll-mt-32 md:py-12 dark:border-white/5;
+  }
+
+  .section-content-wrapper {
+    @apply flex flex-col gap-6 md:gap-10;
+  }
+
+  .section-header {
+    @apply flex flex-col gap-2 ps-2 md:ps-4;
+  }
+
+  .section-title-row {
+    @apply flex items-center gap-3;
+  }
+
+  .section-heading {
+    @apply text-3xl leading-none font-black text-slate-900 md:text-4xl lg:text-4xl dark:text-slate-100;
+  }
+
+  .section-icon {
+    @apply flex-shrink-0 text-2xl text-primary-600 md:text-3xl dark:text-primary-400;
+  }
+
+  .section-divider {
+    @apply h-1 w-24 rounded-full bg-gradient-to-r from-primary-600 to-transparent opacity-80 md:w-40;
+  }
+
+  .section-children {
+    @apply w-full;
+  }
+}

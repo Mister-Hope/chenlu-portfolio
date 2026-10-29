@@ -1,0 +1,16 @@
+virtualStoreType: global
+
+minimumReleaseAgeExclude:
+  - "@mdit/*"
+  - "@mr-hope/*"
+  - "@oxfmt/*"
+  - "@oxlint/*"
+  - "@vitest/*"
+  - "@vue/*"
+  - oxc-config-hope
+  - oxfmt
+  - oxlint
+minimumReleaseAgeExcludePrune: true
+trustPolicy: no-downgrade
+trustPolicyExcludePrune: true
+trustPolicyIgnoreAfter: 720

@@ -1,0 +1,37 @@
+@layer components {
+  .timeline {
+    @apply space-y-0 ps-0 md:ps-4;
+  }
+
+  .timeline-item {
+    @apply relative ps-4 pb-5 last:pb-0 md:ps-9;
+  }
+
+  .timeline-line {
+    @apply absolute top-[10px] bottom-0 left-[4.5px] z-0 w-px bg-slate-200 md:top-[16px] dark:bg-slate-800;
+  }
+
+  .timeline-dot {
+    @apply absolute top-[5px] left-0 z-10 h-2.5 w-2.5 rounded-full bg-primary-500 shadow-sm transition-all duration-500 group-hover:scale-125 md:top-[11px] dark:bg-primary-600;
+  }
+
+  .timeline-content {
+    @apply flex flex-col gap-1.5;
+  }
+
+  .timeline-header {
+    @apply flex items-center gap-3;
+  }
+
+  .timeline-box {
+    @apply p-1 md:p-2;
+  }
+
+  .timeline-link {
+    @apply inline-flex items-center gap-2 rounded-2xl bg-slate-50 px-4 py-2 text-xs font-bold tracking-widest text-slate-400 uppercase shadow-sm transition-all hover:bg-primary-600 hover:text-white active:scale-95 dark:bg-slate-800 dark:text-slate-500 dark:hover:bg-primary-600 dark:hover:text-white;
+  }
+
+  .timeline-link-icon {
+    @apply text-slate-400 transition-colors hover:text-primary-600 dark:text-slate-500 dark:hover:text-primary-400;
+  }
+}
