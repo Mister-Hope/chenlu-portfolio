@@ -1,86 +1,75 @@
-# 🎨 作品集模板
+# 陈璐 · 个人简历
 
-一个现代、响应式且**配置驱动**的作品集模板。专为开发者、研究人员和创作者设计，无需编写代码即可展示你的作品。
+> [🇬🇧 English](./README.md)
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg?style=plastic)
+**陈璐**的个人简历与作品集网站。东北师范大学凝聚态物理专业博士研究生，正在求职**高中物理教师**岗位。
 
-[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge&logo=github)](https://github.com/new?template_name=portfolio-template&template_owner=Mister-Hope)
+站点为双语结构：英文位于 `/`，中文位于 `/zh/`。
 
-## 特色
+## 关于
 
-- **零代码要求**：通过单个配置文件（`config.yml`、`config.json` 或 `config.ts`）管理所有内容。
-- **高度可定制**：轻松进行自定义病添加章节
-- **快速且 SEO 友好**：基于 React 和 Vite 构建，支持静态站点生成（SSG），秒级构建与加载。（参见 [PageSpeed Insights](https://pagespeed.web.dev/analysis/https-cheng-shang-me/n71ps5slz1?form_factor=desktop)）
-- **多语言支持**：内置国际化支持。
+- 东北师范大学物理学本硕博贯通培养，推免保送。
+- 四年高中物理教学与教研实践，熟悉高中物理知识体系与高考考查重点。
+- 连续六年学生工作经历：本科年级长、研究生年级负责人、学生会秘书长。
+- 以第一作者身份在 _Light: Science & Applications_、_Physical Review Research_、_J. Mater. Chem. C_ 等期刊发表论文。
 
-## 🚀 快速开始
+## 站点板块
 
-### 1. 安装
+| 板块           | 内容                             |
+| -------------- | -------------------------------- |
+| 个人资料       | 基本信息、证书与联系方式         |
+| 求职意向       | 以教学为核心的求职目标与联系方式 |
+| 教育背景与经历 | 学历、教学经历、支教与科研项目   |
+| 代表性科研成果 | 第一作者与共同一作论文及期刊分区 |
+| 学术合作       | 合作署名论文                     |
+| 荣誉与奖项     | 奖学金、荣誉称号与竞赛获奖       |
+| 学生工作       | 担任的学生干部职务与职责         |
+| 自我评价       | 个人优势与从教意愿总结           |
 
-```bash
-# 克隆你创建的仓库
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
-```
-
-### 2. 配置
-
-本项目由配置文件驱动。你**不需要**编辑 `src/` 中的源代码。
-
-1. 从 `examples/` 复制一个示例配置文件到根目录。
-
-   ```bash
-   cp examples/config.example.yml config.yml
-   # 或
-   # cp examples/config.example.json config.json
-   # 或
-   # cp examples/config.example.ts config.ts
-   # 或
-   # cp examples/config.example.js config.js
-   ```
-
-2. 打开复制的配置文件（例如：`config.yml`）并开始添加你的信息！
-
-关于如何配置每个部分的详细指南：
-
-- [**English Configuration Guide**](./docs/en.md)
-- [**中文配置指南**](./docs/zh.md)
-
-### 3. 本地运行
+## 本地开发
 
 ```bash
-pnpm run dev
+pnpm ci          # 安装依赖
+pnpm run dev     # 启动开发服务器 http://localhost:3000
+pnpm run build   # 类型检查并构建到 dist/
+pnpm run preview # 预览生产构建
+pnpm run lint    # 代码检查与格式化
 ```
 
-打开 <http://localhost:3000> 即可实时查看更改。
+## 内容维护
 
-## 📖 文档
+所有面向用户的内容都集中在 [`config.yml`](./config.yml) 中，按语言区分（`/` 为英文，`/zh/` 为中文）。修改内容无需改动源码。
 
-## 📦 构建与部署
+- 文案、链接、板块、媒体 → `config.yml`
+- 样式微调 → 项目根目录的 `custom.css`（构建时自动注入）
+- 完整配置说明 → [`docs/en.md`](./docs/en.md) / [`docs/zh.md`](./docs/zh.md)
 
-生产环境构建：
+## 部署
 
-```bash
-pnpm run build
-```
+推送到 `main` 分支会触发 `Deploy Docs` GitHub Actions 工作流，自动构建并将 `dist/` 发布到 `gh-pages` 分支，通过 GitHub Pages 提供服务。同一份 `dist/` 产物也可部署到 Vercel、Netlify 或任意静态服务器。
 
-输出文件将位于 `dist/` 文件夹中，可随时部署到 GitHub Pages、Vercel 或 Netlify。
+## 技术栈
 
-## 🛠️ 技术栈（面向开发者）
-
-- React 19 + Vite
-- TypeScript
+- React 19 + Vite 8，TypeScript
 - Tailwind CSS v4
-- Iconify
+- Iconify 图标
+- 使用 markdown-it 渲染 Markdown，并通过自定义 Vite 插件实现静态站点生成
 
-## 📂 项目结构
+## 项目结构
 
 ```text
 .
-├── config.yml          # <--- 你的配置文件
-├── docs/               # 详细文档
-├── examples/           # 示例配置
-├── public/             # 你的静态资源（图片、PDF）
-├── src/                # 源代码（除非必要，请勿编辑）
-└── ...
+├── config.yml          # 全站内容（英文 + 中文）
+├── custom.css          # 自定义样式覆盖，自动注入
+├── public/             # 静态资源（头像、背景图）
+├── src/                # React 组件与样式
+├── lib/                # 配置加载、Markdown 渲染、SSG 插件
+├── docs/               # 配置参考文档
+└── examples/           # 其他格式的示例配置
 ```
+
+## 联系方式
+
+- 邮箱：[chenl987@nenu.edu.cn](mailto:chenl987@nenu.edu.cn)
+- ORCID：[0009-0006-5397-4679](https://orcid.org/0009-0006-5397-4679)
+- 简历：<https://chenlu-resume.innenu.com>
