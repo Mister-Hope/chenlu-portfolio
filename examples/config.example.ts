@@ -4,8 +4,8 @@ import {
   defineHeroConfig,
   defineNavbarConfig,
   defineSections,
-} from "../src/helper.js";
-import type { LocaleConfig } from "../src/types/index.js";
+} from "#helper";
+import type { LocaleConfig } from "#types";
 
 const enHero = defineHeroConfig({
   name: "Mister-Hope",
@@ -318,7 +318,7 @@ const enContents = defineSections([
 ]);
 
 const enFooter = defineFooterConfig({
-  copyright: "© 2025 Mister Hope. All rights reserved.",
+  copyright: "© $year Mister Hope. All rights reserved.",
   description: "Built with Love.",
 });
 
@@ -638,7 +638,7 @@ const zhContents = defineSections([
 ]);
 
 const zhFooter = defineFooterConfig({
-  copyright: "© 2025 Mister Hope。保留所有权利。",
+  copyright: "© $year Mister Hope。保留所有权利。",
   description: "用爱构建。",
 });
 
@@ -659,6 +659,16 @@ export const zhLocale: LocaleConfig = {
 };
 
 export default defineConfig({
+  // Deployment base path. Keep "/" when the site is served from a domain root
+  // (e.g. Netlify/Vercel). For a sub-path such as a GitHub Pages project site
+  // (https://<user>.github.io/<repository>/), set it to "/<repository>/".
+  base: "/",
+  // Public site URL used for canonical/hreflang/sitemap/Open Graph tags.
+  // Set it to your deployed URL, e.g. "https://example.com" (include the base path for sub-path deploys).
+  // siteUrl: "https://example.com",
+  // Optional: favicon (defaults to /favicon.svg) and social preview image (defaults to the hero avatar).
+  // favicon: "/favicon.svg",
+  // ogImage: "https://example.com/social-preview.png",
   locales: {
     "/": enLocale,
     "/zh/": zhLocale,
