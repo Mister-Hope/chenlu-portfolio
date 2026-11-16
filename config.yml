@@ -3,14 +3,13 @@ locales:
     lang: en
     langName: EN
     title: Chen Lu | Portfolio
-    description: The personal portfolio of Chen Lu, a Ph.D. candidate in condensed matter physics seeking a high school physics teaching position.
+    description: The personal portfolio of Chen Lu, a Ph.D. candidate in condensed matter physics seeking physics teaching and research positions.
 
     hero:
       name: Chen Lu
       welcome: 👋 Hi there, I am
       titles:
-        # - High School Physics Teacher
-        - High School Physics Teacher Candidate
+        - Physics Teaching & Research Candidate
         - Condensed Matter Physics Ph.D. Candidate
         - Six-Year Student Leader
       avatar: /avatar.avif
@@ -34,14 +33,16 @@ locales:
           anchor: "#profile"
         - label: Experience
           anchor: "#experience"
+        - label: Research
+          anchor: "#research"
         - label: Publications
           anchor: "#publications"
+        - label: Conferences
+          anchor: "#conferences"
         - label: Awards
           anchor: "#awards"
         - label: Student Work
           anchor: "#student-work"
-        - label: Evaluation
-          anchor: "#evaluation"
 
     sections:
       - type: profile
@@ -53,6 +54,12 @@ locales:
             - title: Name
               icon: user
               value: Chen Lu
+
+            - title: Research
+              icon: flask
+              value:
+                - Solid-State Optics
+                - Luminescence Spectroscopy
 
             - title: Political Status
               icon: flag
@@ -70,11 +77,16 @@ locales:
               value: chenl987@nenu.edu.cn
               icon: envelope
 
+            - label: Phone
+              value: "15604480425"
+              link: tel:+8615604480425
+              icon: phone
+
             - label: WeChat
               value: Mistress-Hope
               icon: fa7-brands:weixin
 
-          slogan: Serving the nation through education — dedicated to high school physics teaching.
+          slogan: Serving the nation through education — dedicated to physics teaching and research.
 
       - type: banner
         id: aspiration
@@ -82,10 +94,10 @@ locales:
         icon: bullhorn
         data:
           header: |-
-            Committed to High School Physics Teaching
+            Committed to Physics Education & Research
           tags: Open to Opportunities
           content: |-
-            Solid research training in condensed matter physics and four years of high school physics teaching practice enable me to inspire students with rigorous scientific thinking and lively physics classes.
+            Solid research training in condensed matter physics and four years of high school physics teaching practice enable me to inspire students with rigorous scientific thinking and lively physics classes. Open to physics teaching and research positions in both high schools and universities.
           footer: |-
             Feel free to reach out: [chenl987@nenu.edu.cn](mailto:chenl987@nenu.edu.cn)
           actions:
@@ -102,12 +114,13 @@ locales:
             place: Northeast Normal University, School of Physics
             time: Sep. 2021 - Jun. 2027 (Expected)
             title: Successive Master–Doctoral Program · Condensed Matter Physics
-            content: Admitted through the recommendation-without-examination track.
+            content: "Admitted through the recommendation-without-examination track. Research directions: solid-state optics and luminescence spectroscopy."
 
           - type: study
             place: Northeast Normal University, School of Physics
             time: Sep. 2017 - Jun. 2021
             title: Bachelor of Science in Physics (Teacher Education)
+            content: A university directly under the Ministry of Education and a national "Double First-Class" university.
 
           - type: work
             place: New Kaixuan Education School
@@ -133,42 +146,111 @@ locales:
             title: Principal Investigator, Key Cultivation Project
             content: Led the project "Spectroscopic Study and Applications of UV-B Persistent Luminescence", coordinating the research design and division of work and passing the final review.
 
+      - type: markdown
+        id: research
+        title: Research Profile
+        icon: flask
+        data:
+          card: true
+          content: |-
+            **Thesis**: *Design of Upconversion-Excited Charging in Energy-Storage Luminescent Materials and Its Application in Optical Data Storage*
+
+            **Research Directions**: Solid-State Optics · Luminescence Spectroscopy
+
+            - **Upconversion nonlinear charging**: visible-light writing for fast, high-resolution optical data storage;
+            - **Rare-earth trap regulation and wavelength design**: a near-infrared readout path for deep-trap information;
+            - **UCL UV emission and energy transfer**: secure anti-counterfeiting and multi-level information encryption.
+
       - type: cards
         id: publications
         title: Selected Publications
         icon: book
         data:
-          - title: "Light: Science & Applications"
-            category: CAS Tier 1 TOP
+          - title: "Unlocking the potential of up-conversion charging for rapid and high-resolution optical storage with phosphors"
+            category: "Light: Science & Applications · CAS Q1 TOP · IF 23.4"
             description: |-
-              **First Author** · A top international journal in optics, selected as a "Leading Journal" of the Chinese STM Journals Excellence Action Plan.
+              **First Author** · Lu Chen, Xueqing Liu, Feng Liu, et al. · 2025
 
-          - title: Physical Review Research
-            category: CAS Tier 2
-            description: |-
-              **First Author** · An authoritative physics journal of the American Physical Society (APS).
+              A top international journal in optics, selected as a "Leading Journal" of the Chinese STM Journals Excellence Action Plan.
+            actions:
+              - text: View PDF
+                link: /publications/light-science-applications.pdf
+                icon: file-pdf
+              - text: DOI
+                link: https://doi.org/10.1038/s41377-025-01746-9
+                icon: arrow-up-right-from-square
 
-          - title: J. Mater. Chem. C
-            category: CAS Tier 3
+          - title: "Unlocking deep-trap data: Photonically engineered trap transfer strategy for secure phosphor memory"
+            category: "Physical Review Research · CAS Q2 · IF 4.2"
             description: |-
-              **First Author** · A classic journal on optical functional materials published by the Royal Society of Chemistry (RSC).
+              **First Author** · Lu Chen, Bingbing Yang, Feng Liu · 2026
+
+              An authoritative physics journal of the American Physical Society (APS).
+            actions:
+              - text: View PDF
+                link: /publications/physical-review-research.pdf
+                icon: file-pdf
+              - text: DOI
+                link: https://doi.org/10.1103/ym96-4sch
+                icon: arrow-up-right-from-square
+
+          - title: "Advanced UV anti-counterfeiting strategy enabled by white-light-powered upconversion of Ho³⁺-doped phosphors"
+            category: "J. Mater. Chem. C · CAS Q3 · IF 5.1"
+            description: |-
+              **First Author** · Lu Chen, Jin Chen, Xiao-Jun Wang, et al. · 2026
+
+              A classic journal on optical functional materials published by the Royal Society of Chemistry (RSC).
+            actions:
+              - text: View PDF
+                link: /publications/j-mater-chem-c.pdf
+                icon: file-pdf
+              - text: DOI
+                link: https://doi.org/10.1039/d6tc01549b
+                icon: arrow-up-right-from-square
 
           - title: APC International Photonics Conference
             category: International Conference
             description: |-
               **First Author** · Presented the research and published in a high-level international conference.
+            actions:
+              - text: Abstract
+                link: "https://opg.optica.org/abstract.cfm?uri=NOMA-2023-NoM4C.3"
+                icon: arrow-up-right-from-square
 
-          - title: National Materials
-            category: Excellence Journal
+          - title: "From Photons to Persistent Memory: Optically Controlled Trap Engineering Enables Secure, Hierarchical Optical Storage"
+            category: "National Materials · Excellence Journal (卓越期刊)"
             description: |-
-              **Co-First Author** · Selected for the Excellence Action Plan for High-Level Key Journals.
+              **Co-First Author** · Xueqing Liu, Lu Chen, Feng Liu, et al. · 2026
+
+              Selected for the Excellence Action Plan for High-Level Key Journals; reports an optically controlled trap-engineering route to secure, hierarchical optical storage.
+            actions:
+              - text: View PDF
+                link: /publications/national-materials.pdf
+                icon: file-pdf
+              - text: DOI
+                link: https://doi.org/10.1002/nam2.70000
+                icon: arrow-up-right-from-square
 
       - type: markdown
         id: collaboration
         title: Academic Collaboration
         icon: users
         data:
-          content: In addition, I have co-authored **5 papers** in well-known international SCI journals as a major collaborator.
+          content: In addition, I have co-authored **5 papers** in well-known international SCI journals as a major collaborator — **CAS Q1 TOP ×1, Q2 ×2, Q3 ×2**.
+
+      - type: timeline
+        id: conferences
+        title: Academic Conferences
+        icon: chalkboard-user
+        data:
+          - year: "2026"
+            content: "**China Society of Rare Earths 2026 Annual Conference** · Suzhou, Jiangsu — Attendee"
+
+          - year: "2024"
+            content: "**Light Conference 2024** · Changchun, Jilin — Attendee"
+
+          - year: "2024"
+            content: '**2024 "Light · Future" New Materials Graduate Student Forum** · Changchun, Jilin — Outstanding Presentation Award'
 
       - type: list
         id: awards
@@ -189,6 +271,7 @@ locales:
           - "**2021 — 2023** School of Physics, NENU · Graduate Grade Coordinator: coordinated academic atmosphere building, ideological education and student management, with outstanding class organization skills."
           - "**2019 — 2020** Student Union, School of Physics, NENU · Secretary-General: planned large academic and cultural festivals, science lectures and league evaluation work; named a university-level outstanding cadre."
           - "**2017 — 2021** School of Physics, NENU · Undergraduate Grade Leader: served four consecutive years, with solid experience in student work and youth moral education communication."
+          - "**2017 — 2021** Mental Health Center, NENU · Peer Counselor: four years of peer support for undergraduates, offering counseling conversations and academic adaptation guidance."
 
       - type: markdown
         id: evaluation
@@ -196,10 +279,11 @@ locales:
         icon: star
         data:
           content: |-
-            - Integrated bachelor–master–doctoral training in physics at Northeast Normal University; a CPC member who loves basic education, with solid physics knowledge and rigorous scientific thinking.
+            - Integrated bachelor–master–doctoral training in physics at Northeast Normal University; a CPC member researching solid-state optics and luminescence spectroscopy, with solid physics fundamentals and rigorous scientific thinking.
+            - Three first-author papers in Light: Science & Applications, Physical Review Research and other journals, plus further papers as co-first author and major collaborator; experienced in upconversion charging, trap engineering and optical information storage.
             - Four years of high school physics teaching and teaching-research experience; familiar with the high school physics system and key exam points; skilled at heuristic and model-based teaching.
             - Six consecutive years as undergraduate grade leader, graduate grade coordinator and student union secretary-general; strong organizational, coordination and communication skills, responsible and approachable.
-            - Practical and modest, dedicated and accountable, ready to devote myself to high school physics teaching.
+            - Practical and modest, dedicated and accountable; ready to devote myself to physics teaching and research at secondary or higher education institutions.
           card: true
 
     footer:
@@ -210,7 +294,7 @@ locales:
     lang: zh-CN
     langName: 中文
     title: 陈璐 | 个人简历
-    description: 求职高中物理教师岗位的陈璐的个人简历与作品集。
+    description: 求职物理教学与科研岗位的陈璐的个人简历与作品集。
     ui:
       themeToggle: 切换主题
       contacts: 联系方式
@@ -220,8 +304,7 @@ locales:
       name: 陈璐
       welcome: 👋 你好，我是
       titles:
-        # - 高中物理教师
-        - 高中物理教师求职者
+        - 物理教学与科研求职者
         - 凝聚态物理博士研究生
         - 六年学生工作经历
       avatar: /avatar.avif
@@ -245,14 +328,16 @@ locales:
           anchor: "#profile"
         - label: 教育经历
           anchor: "#experience"
+        - label: 研究方向
+          anchor: "#research"
         - label: 科研成果
           anchor: "#publications"
+        - label: 学术会议
+          anchor: "#conferences"
         - label: 荣誉奖项
           anchor: "#awards"
         - label: 学生工作
           anchor: "#student-work"
-        - label: 自我评价
-          anchor: "#evaluation"
 
     sections:
       - type: profile
@@ -264,6 +349,12 @@ locales:
             - title: 姓名
               icon: user
               value: 陈璐
+
+            - title: 研究方向
+              icon: flask
+              value:
+                - 固体光学
+                - 发光材料光谱学
 
             - title: 政治面貌
               icon: flag
@@ -281,11 +372,16 @@ locales:
               value: chenl987@nenu.edu.cn
               icon: envelope
 
+            - label: 电话
+              value: "15604480425"
+              link: tel:+8615604480425
+              icon: phone
+
             - label: 微信
               value: Mistress-Hope
               icon: fa7-brands:weixin
 
-          slogan: 以从教报国之初心，全力投入高中物理教学工作。
+          slogan: 以从教报国之初心，投身物理教学与科研工作。
 
       - type: banner
         id: aspiration
@@ -293,10 +389,10 @@ locales:
         icon: bullhorn
         data:
           header: |-
-            立志投身高中物理教学工作
+            立志投身物理教学与科研工作
           tags: 求职中
           content: |-
-            扎实的凝聚态物理科研训练与四年高中物理教学实践，让我能够以严谨的科学思维与生动的物理课堂感染学生。
+            扎实的凝聚态物理科研训练与四年的高中物理教学实践，让我能够以严谨的科学思维与生动的物理课堂感染学生；面向中学与高校的物理教学及科研岗位开放机会。
           footer: |-
             欢迎联系：[chenl987@nenu.edu.cn](mailto:chenl987@nenu.edu.cn)
           actions:
@@ -313,12 +409,13 @@ locales:
             place: 东北师范大学 物理学院
             time: 2021.09 - 2027.06（预计）
             title: 硕博连读 · 凝聚态物理
-            content: 推免保送。
+            content: 推免保送。研究方向：固体光学、发光材料光谱学。
 
           - type: study
             place: 东北师范大学 物理学院
             time: 2017.09 - 2021.06
             title: 物理学（师范/理学）· 理学学士
+            content: 教育部直属高校、国家「双一流」建设高校。
 
           - type: work
             place: 新凯旋教育学校
@@ -344,42 +441,111 @@ locales:
             title: 重点培育项目负责人
             content: 主持重点课题《紫外 B 波段余辉发光的谱学及应用研究》，全面统筹方案设计、课题分工并圆满通过结项验收。
 
+      - type: markdown
+        id: research
+        title: 研究方向
+        icon: flask
+        data:
+          card: true
+          content: |-
+            **毕业课题**：储能发光材料中上转换激发充能的设计及其在光存储领域的应用
+
+            **研究方向**：固体光学 · 发光材料光谱学
+
+            - **上转换非线性充能**：可见光写入，实现快速、高分辨率光学存储；
+            - **稀土陷阱调控与波长设计**：构建深陷阱信息的近红外读取路径；
+            - **UCL 紫外发射与能量传递**：发展安全防伪与多级信息加密。
+
       - type: cards
         id: publications
         title: 代表性科研成果
         icon: book
         data:
-          - title: "Light: Science & Applications"
-            category: 中科院一区 TOP
+          - title: "Unlocking the potential of up-conversion charging for rapid and high-resolution optical storage with phosphors"
+            category: "Light: Science & Applications · 中科院一区 TOP · IF 23.4"
             description: |-
-              **第一作者** · 光学领域国际顶刊，入选中国科技期刊卓越行动计划「领军期刊」。
+              **第一作者** · Lu Chen, Xueqing Liu, Feng Liu 等 · 2025
 
-          - title: Physical Review Research
-            category: 中科院二区
-            description: |-
-              **第一作者** · 美国物理学会 (APS) 旗下物理权威刊物。
+              光学领域国际顶刊，入选中国科技期刊卓越行动计划「领军期刊」。
+            actions:
+              - text: 预览 PDF
+                link: /publications/light-science-applications.pdf
+                icon: file-pdf
+              - text: DOI
+                link: https://doi.org/10.1038/s41377-025-01746-9
+                icon: arrow-up-right-from-square
 
-          - title: J. Mater. Chem. C
-            category: 中科院三区
+          - title: "Unlocking deep-trap data: Photonically engineered trap transfer strategy for secure phosphor memory"
+            category: "Physical Review Research · 中科院二区 · IF 4.2"
             description: |-
-              **第一作者** · 英国皇家化学会 (RSC) 光功能材料经典期刊。
+              **第一作者** · Lu Chen, Bingbing Yang, Feng Liu · 2026
+
+              美国物理学会（APS）旗下物理权威刊物。
+            actions:
+              - text: 预览 PDF
+                link: /publications/physical-review-research.pdf
+                icon: file-pdf
+              - text: DOI
+                link: https://doi.org/10.1103/ym96-4sch
+                icon: arrow-up-right-from-square
+
+          - title: "Advanced UV anti-counterfeiting strategy enabled by white-light-powered upconversion of Ho³⁺-doped phosphors"
+            category: "J. Mater. Chem. C · 中科院三区 · IF 5.1"
+            description: |-
+              **第一作者** · Lu Chen, Jin Chen, Xiao-Jun Wang 等 · 2026
+
+              英国皇家化学会（RSC）光功能材料经典期刊。
+            actions:
+              - text: 预览 PDF
+                link: /publications/j-mater-chem-c.pdf
+                icon: file-pdf
+              - text: DOI
+                link: https://doi.org/10.1039/d6tc01549b
+                icon: arrow-up-right-from-square
 
           - title: APC 国际光子学学术会议
             category: 国际重要学术会议
             description: |-
               **第一作者** · 作学术汇报交流并收录高水平学术会议成果。
+            actions:
+              - text: 查看摘要
+                link: "https://opg.optica.org/abstract.cfm?uri=NOMA-2023-NoM4C.3"
+                icon: arrow-up-right-from-square
 
-          - title: National Materials
-            category: 卓越期刊
+          - title: "从光子到持久发光：光控陷阱工程助力安全分级光存储（From Photons to Persistent Memory）"
+            category: "National Materials · 卓越期刊"
             description: |-
-              **共同一作** · 入选中国科技期刊卓越行动计划高水平重点期刊。
+              **共同一作** · Xueqing Liu, Lu Chen, Feng Liu 等 · 2026
+
+              入选中国科技期刊卓越行动计划高水平重点期刊；提出光控陷阱工程策略，实现安全、分级的光信息存储。
+            actions:
+              - text: 预览 PDF
+                link: /publications/national-materials.pdf
+                icon: file-pdf
+              - text: DOI
+                link: https://doi.org/10.1002/nam2.70000
+                icon: arrow-up-right-from-square
 
       - type: markdown
         id: collaboration
         title: 学术合作
         icon: users
         data:
-          content: 另以主要合作者身份在知名国际 SCI 刊物署名发表学术论文 **5 篇**。
+          content: 另以主要合作者身份在知名国际 SCI 刊物署名发表学术论文 **5 篇**（中科院一区 TOP ×1、二区 ×2、三区 ×2）。
+
+      - type: timeline
+        id: conferences
+        title: 学术会议
+        icon: chalkboard-user
+        data:
+          - year: "2026"
+            content: "**中国稀土学会 2026 学术年会** · 江苏苏州 · 参会"
+
+          - year: "2024"
+            content: "**Light Conference 2024（光学国际会议）** · 吉林长春 · 参会"
+
+          - year: "2024"
+            content: "**2024「光·未来」新材料研究生学术论坛** · 吉林长春 · 优秀报告奖"
 
       - type: list
         id: awards
@@ -400,6 +566,7 @@ locales:
           - "**2021 — 2023** 东北师范大学物理学院 · 研究生年级负责人：统筹年级日常学风建设、思政教育与学生管理事务，具备突出的班级组织协调能力。"
           - "**2019 — 2020** 东北师范大学物理学院学生会 · 学生会秘书长：负责学院大型学术文化节、科技讲座策划统筹及团学评优工作，获评校级优秀干部。"
           - "**2017 — 2021** 东北师范大学物理学院 · 本科年级长：连续 4 年担任本科年级长，具备深厚扎实的学生工作与青年德育沟通经验。"
+          - "**2017 — 2021** 东北师范大学心理健康中心 · 朋辈辅导员：连续四年参与本科生心理健康支持工作，开展朋辈谈心与学业适应辅导。"
 
       - type: markdown
         id: evaluation
@@ -407,10 +574,11 @@ locales:
         icon: star
         data:
           content: |-
-            - 东北师范大学物理学本硕博贯通培养，中共党员，热爱基础教育事业，具有扎实的物理学科功底与严谨的科学思维；
+            - 东北师范大学物理学本硕博贯通培养，中共党员，研究方向为固体光学与发光材料光谱学，具有扎实的物理学科功底与严谨的科学思维；
+            - 以第一作者在 Light: Science & Applications、Physical Review Research 等期刊发表论文 3 篇，另以共同一作及主要合作者身份发表多篇，熟悉上转换充能、陷阱调控与光学信息存储研究；
             - 具备四年高中物理教学实践与教研备课经验，熟悉高中物理知识体系与高考考查重点，善于启发式与模型化教学；
             - 连续六年担任本科年级长、研究生年级负责人及学生会秘书长，组织协调与沟通表达能力强，富有责任心与亲和力；
-            - 作风踏实谦逊，工作敬业负责，愿以从教报国之初心，全力投入高中物理教学工作。
+            - 作风踏实谦逊，工作敬业负责，愿在中学或高校长期从事物理教学与科研工作。
           card: true
 
     footer:
