@@ -1,6 +1,16 @@
+# Deployment base path. Keep "/" when the site is served from a domain root
+# (e.g. Netlify/Vercel). For a sub-path such as a GitHub Pages project site
+# (https://<user>.github.io/<repository>/), set it to "/<repository>/".
+base: /
+# Public site URL used for canonical/hreflang/sitemap/Open Graph tags.
+# Set it to your deployed URL, e.g. "https://example.com" (include the base path for sub-path deploys).
+# siteUrl: https://example.com
+# Optional: favicon (defaults to /favicon.svg) and social preview image (defaults to the hero avatar).
+# favicon: /favicon.svg
+# ogImage: https://example.com/social-preview.png
 locales:
   /:
-    lang: zh-CN
+    lang: en-US
     langName: EN
     title: Mister-Hope | Portfolio
     description: The personal portfolio of Mister-Hope, a front-end developer.
@@ -250,7 +260,7 @@ locales:
           content: I am always looking for collaborative opportunities at the intersection of **quantum complexity** and **open quantum systems**. Feel free to reach out for research discussions or joint explorations of the fundamental structures of our universe.
 
     footer:
-      copyright: © 2025 Mister Hope. All rights reserved.
+      copyright: © $year Mister Hope. All rights reserved.
       description: Built with Love.
 
   /zh/:
@@ -505,5 +515,5 @@ locales:
           content: 我始终期待在**量子复杂性**与**开放量子系统**交叉领域的合作。欢迎随时联系我进行研究讨论，或共同探索宇宙的基本结构。
 
     footer:
-      copyright: © 2025 Mister Hope。保留所有权利。
+      copyright: © $year Mister Hope。保留所有权利。
       description: 用爱构建。
