@@ -7,6 +7,10 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -24,4 +28,4 @@ jobs:
           require-lockfile: true
 
       - name: Run linter
-        run: pnpm run lint
+        run: pnpm run lint:check
