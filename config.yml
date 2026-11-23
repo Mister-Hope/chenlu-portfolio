@@ -243,14 +243,14 @@ locales:
         title: Academic Conferences
         icon: chalkboard-user
         data:
-          - year: "2026"
-            content: "**China Society of Rare Earths 2026 Annual Conference** · Suzhou, Jiangsu — Attendee"
+          - year: "2024"
+            content: '**2024 "Light · Future" New Materials Graduate Student Forum** · Changchun, Jilin — Outstanding Presentation Award'
 
           - year: "2024"
             content: "**Light Conference 2024** · Changchun, Jilin — Attendee"
 
-          - year: "2024"
-            content: '**2024 "Light · Future" New Materials Graduate Student Forum** · Changchun, Jilin — Outstanding Presentation Award'
+          - year: "2026"
+            content: "**China Society of Rare Earths 2026 Annual Conference** · Suzhou, Jiangsu — Attendee"
 
       - type: list
         id: awards
@@ -512,7 +512,7 @@ locales:
                 link: "https://opg.optica.org/abstract.cfm?uri=NOMA-2023-NoM4C.3"
                 icon: arrow-up-right-from-square
 
-          - title: "从光子到持久发光：光控陷阱工程助力安全分级光存储（From Photons to Persistent Memory）"
+          - title: "From Photons to Persistent Memory: Optically Controlled Trap Engineering Enables Secure, Hierarchical Optical Storage"
             category: "National Materials · 卓越期刊"
             description: |-
               **共同一作** · Xueqing Liu, Lu Chen, Feng Liu 等 · 2026
@@ -538,14 +538,14 @@ locales:
         title: 学术会议
         icon: chalkboard-user
         data:
-          - year: "2026"
-            content: "**中国稀土学会 2026 学术年会** · 江苏苏州 · 参会"
+          - year: "2024"
+            content: "**2024「光·未来」新材料研究生学术论坛** · 吉林长春 · 优秀报告奖"
 
           - year: "2024"
             content: "**Light Conference 2024（光学国际会议）** · 吉林长春 · 参会"
 
-          - year: "2024"
-            content: "**2024「光·未来」新材料研究生学术论坛** · 吉林长春 · 优秀报告奖"
+          - year: "2026"
+            content: "**中国稀土学会 2026 学术年会** · 江苏苏州 · 参会"
 
       - type: list
         id: awards
