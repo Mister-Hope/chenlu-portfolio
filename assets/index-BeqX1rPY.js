@@ -33,9 +33,9 @@ Error generating stack: `+e.message+`
 `,actions:[{text:`Abstract`,link:`https://opg.optica.org/abstract.cfm?uri=NOMA-2023-NoM4C.3`,icon:`arrow-up-right-from-square`}]},{title:`From Photons to Persistent Memory: Optically Controlled Trap Engineering Enables Secure, Hierarchical Optical Storage`,category:`National Materials · Excellence Journal (卓越期刊)`,description:`<p><strong>Co-First Author</strong> · Xueqing Liu, Lu Chen, Feng Liu, et al. · 2026</p>
 <p>Selected for the Excellence Action Plan for High-Level Key Journals; reports an optically controlled trap-engineering route to secure, hierarchical optical storage.</p>
 `,actions:[{text:`View PDF`,link:`/publications/national-materials.pdf`,icon:`file-pdf`},{text:`DOI`,link:`https://doi.org/10.1002/nam2.70000`,icon:`arrow-up-right-from-square`}]}]},{type:`markdown`,id:`collaboration`,title:`Academic Collaboration`,icon:`users`,data:{content:`<p>In addition, I have co-authored <strong>5 papers</strong> in well-known international SCI journals as a major collaborator — <strong>CAS Q1 TOP ×1, Q2 ×2, Q3 ×2</strong>.</p>
-`}},{type:`timeline`,id:`conferences`,title:`Academic Conferences`,icon:`chalkboard-user`,data:[{year:`2026`,content:`<p><strong>China Society of Rare Earths 2026 Annual Conference</strong> · Suzhou, Jiangsu — Attendee</p>
+`}},{type:`timeline`,id:`conferences`,title:`Academic Conferences`,icon:`chalkboard-user`,data:[{year:`2024`,content:`<p><strong>2024 “Light · Future” New Materials Graduate Student Forum</strong> · Changchun, Jilin — Outstanding Presentation Award</p>
 `},{year:`2024`,content:`<p><strong>Light Conference 2024</strong> · Changchun, Jilin — Attendee</p>
-`},{year:`2024`,content:`<p><strong>2024 “Light · Future” New Materials Graduate Student Forum</strong> · Changchun, Jilin — Outstanding Presentation Award</p>
+`},{year:`2026`,content:`<p><strong>China Society of Rare Earths 2026 Annual Conference</strong> · Suzhou, Jiangsu — Attendee</p>
 `}]},{type:`list`,id:`awards`,title:`Honors & Awards`,icon:`trophy`,dot:`check`,data:[`<p><strong>Scholarships</strong>: National Scholarship, Second-Class Scholarship, Third-Class Scholarship, Outstanding Student Leader Scholarship ×2, Innovation &amp; Entrepreneurship Scholarship ×2.</p>
 `,`<p><strong>Honors</strong>: University Outstanding Student Leader, University May Fourth Outstanding League Member, University May Fourth Red Flag League Cadre.</p>
 `,`<p><strong>Competitions &amp; Academics</strong>: “Internet+” Provincial Bronze Award, “Challenge Cup” Jilin Provincial Third Prize, “Light · Future” Academic Forum Outstanding Presentation Award.</p>
@@ -76,12 +76,12 @@ Error generating stack: `+e.message+`
 `,actions:[{text:`预览 PDF`,link:`/publications/physical-review-research.pdf`,icon:`file-pdf`},{text:`DOI`,link:`https://doi.org/10.1103/ym96-4sch`,icon:`arrow-up-right-from-square`}]},{title:`Advanced UV anti-counterfeiting strategy enabled by white-light-powered upconversion of Ho³⁺-doped phosphors`,category:`J. Mater. Chem. C · 中科院三区 · IF 5.1`,description:`<p><strong>第一作者</strong> · Lu Chen, Jin Chen, Xiao-Jun Wang 等 · 2026</p>
 <p>英国皇家化学会（RSC）光功能材料经典期刊。</p>
 `,actions:[{text:`预览 PDF`,link:`/publications/j-mater-chem-c.pdf`,icon:`file-pdf`},{text:`DOI`,link:`https://doi.org/10.1039/d6tc01549b`,icon:`arrow-up-right-from-square`}]},{title:`APC 国际光子学学术会议`,category:`国际重要学术会议`,description:`<p><strong>第一作者</strong> · 作学术汇报交流并收录高水平学术会议成果。</p>
-`,actions:[{text:`查看摘要`,link:`https://opg.optica.org/abstract.cfm?uri=NOMA-2023-NoM4C.3`,icon:`arrow-up-right-from-square`}]},{title:`从光子到持久发光：光控陷阱工程助力安全分级光存储（From Photons to Persistent Memory）`,category:`National Materials · 卓越期刊`,description:`<p><strong>共同一作</strong> · Xueqing Liu, Lu Chen, Feng Liu 等 · 2026</p>
+`,actions:[{text:`查看摘要`,link:`https://opg.optica.org/abstract.cfm?uri=NOMA-2023-NoM4C.3`,icon:`arrow-up-right-from-square`}]},{title:`From Photons to Persistent Memory: Optically Controlled Trap Engineering Enables Secure, Hierarchical Optical Storage`,category:`National Materials · 卓越期刊`,description:`<p><strong>共同一作</strong> · Xueqing Liu, Lu Chen, Feng Liu 等 · 2026</p>
 <p>入选中国科技期刊卓越行动计划高水平重点期刊；提出光控陷阱工程策略，实现安全、分级的光信息存储。</p>
 `,actions:[{text:`预览 PDF`,link:`/publications/national-materials.pdf`,icon:`file-pdf`},{text:`DOI`,link:`https://doi.org/10.1002/nam2.70000`,icon:`arrow-up-right-from-square`}]}]},{type:`markdown`,id:`collaboration`,title:`学术合作`,icon:`users`,data:{content:`<p>另以主要合作者身份在知名国际 SCI 刊物署名发表学术论文 <strong>5 篇</strong>（中科院一区 TOP ×1、二区 ×2、三区 ×2）。</p>
-`}},{type:`timeline`,id:`conferences`,title:`学术会议`,icon:`chalkboard-user`,data:[{year:`2026`,content:`<p><strong>中国稀土学会 2026 学术年会</strong> · 江苏苏州 · 参会</p>
+`}},{type:`timeline`,id:`conferences`,title:`学术会议`,icon:`chalkboard-user`,data:[{year:`2024`,content:`<p><strong>2024「光·未来」新材料研究生学术论坛</strong> · 吉林长春 · 优秀报告奖</p>
 `},{year:`2024`,content:`<p><strong>Light Conference 2024（光学国际会议）</strong> · 吉林长春 · 参会</p>
-`},{year:`2024`,content:`<p><strong>2024「光·未来」新材料研究生学术论坛</strong> · 吉林长春 · 优秀报告奖</p>
+`},{year:`2026`,content:`<p><strong>中国稀土学会 2026 学术年会</strong> · 江苏苏州 · 参会</p>
 `}]},{type:`list`,id:`awards`,title:`荣誉与奖项`,icon:`trophy`,dot:`check`,data:[`<p><strong>奖学金</strong>：国家奖学金、二等奖学金、三等奖学金、优秀学生干部奖学金 ×2、创新创业专项奖学金 ×2。</p>
 `,`<p><strong>荣誉称号</strong>：校级优秀学生干部、校五四优秀团员、校五四红旗团干部。</p>
 `,`<p><strong>竞赛与学术</strong>：「互联网+」省级铜奖、「挑战杯」吉林省三等奖、「光·未来」学术论坛优秀报告奖。</p>
